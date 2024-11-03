@@ -20,10 +20,12 @@ Results- <br>
 - Area under curve: 0.91378991803
 - f1_score: 0.905041605482
 Confusion Matrix: <br>
-|                | 0 (Closed)          | 1 (Open)            |
+
+|                | 0 (Closed) | 1 (Open) |
 |----------------|---------------------|---------------------|
-| 0 (Closed)     |          71809      |          6          |
-| 1 (Open)       |          770        |          3698       |
+| 0 (Closed) |          71809         |          6         |
+| 1 (Open) |          770         |          3698         |
+
 <br>
 
 ---
