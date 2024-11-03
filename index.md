@@ -35,7 +35,9 @@ Confusion Matrix: <br>
 | 1 (Open) |          770         |          3698         |
 
 <br>
+
 [Here is the project repo](https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured)
+
 <br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
