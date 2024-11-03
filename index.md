@@ -14,10 +14,6 @@ This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the te
 <br>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 ### Classifier to predict Automobile closed deals
 
 Results- <br>
@@ -30,7 +26,10 @@ Confusion Matrix: <br>
 | 1 (Open)       |          770        |          3698       |
 <br>
 
+---
 
+[Project 2 Title](/pdf/sample_presentation.pdf)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
