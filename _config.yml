@@ -6,7 +6,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   A venue to learn more about me, my work and interests. 
   <br><br>
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karteekpradyumnabulusu/">View My LinkedIn Profile</a>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/kartikpradyumna92">View My GitHub Profile</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
