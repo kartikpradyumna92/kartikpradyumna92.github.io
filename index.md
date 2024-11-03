@@ -5,14 +5,15 @@
 ### House Price Prediction
 
 
-Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.
+Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
 Features were correlated to each other and hence suffered with multicollinearity. You could see it in this confusion Matrix.
 <img src="images/house_price_corr_matrix.png?raw=true"/>
-
-Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well.
+<br>
+Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
 This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the test data.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg?raw=true"/> <br>
 [Git repo]([http://example.com/](https://github.com/kartikpradyumna92/Kaggle_House_Price_Predictions))
+<br>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
