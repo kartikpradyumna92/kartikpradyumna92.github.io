@@ -1,8 +1,11 @@
 ## About me
 
-Currently, I’m a Data Scientist III at Teladoc Health, where I’m leading the migration of data science workflows to new platforms and delivering insights that impact user engagement. My passion for analytics has been shaped by diverse roles and a keen interest in problem-solving. I've implemented data-driven solutions in various domains, including HealthTech and retail, with a focus on leveraging data to enhance business decisions and customer experiences. My technical expertise spans Python, SQL, Databricks, cloud platforms (AWS, Azure), and machine learning algorithms. I'm also experienced in developing and deploying predictive models, such as forecasting sales for convenience stores using machine learning techniques. <br>
-Outside of work, I’m an avid photographer with a love for capturing moments and telling stories through images. Whether it’s data or landscapes, I’m constantly exploring and creating.<br><br>
-
+Currently a Data Scientist III at Teladoc Health, I lead data science workflow migrations and deliver insights that boost user engagement. With a strong background across HealthTech and retail, I’m passionate about problem-solving and using data to elevate business decisions and customer experiences.
+<br>
+My expertise includes Python, SQL, Databricks, cloud platforms (AWS, Azure), and machine learning. I’ve developed and deployed predictive models, such as sales forecasts for convenience stores, to drive impactful results.
+<br>
+Beyond data, I’m an avid photographer with a love for storytelling through images. Whether in data or landscapes, I’m always exploring and creating.
+<br>
 Thanks for visiting my GitHub page—feel free to reach out or explore my projects!
 
 ---
@@ -10,10 +13,10 @@ Thanks for visiting my GitHub page—feel free to reach out or explore my projec
 ## My Portfolio
 ---
 
-### House Price Prediction - Kaggle
+### House Price Prediction - Kaggle (2024)
 
 Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
-Features were correlated to each other and hence suffered with multicollinearity. You could see it in this confusion Matrix.
+Features were correlated to each other and hence suffered with multicollinearity. Below is the correlation matrix showcasing it.
 <img src="images/house_price_corr_matrix.png?raw=true"/>
 <br>
 Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
@@ -30,9 +33,10 @@ This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the te
 
 
 ---
-### Classifier to predict Automobile closed deals
-
-Results- <br>
+### Classifier to predict Automobile closed deals (2017)
+Built a Random Forest classifier on high-dimensional data for predicting deal closures, while handling missing data values and outliers. used Inter Quartile Range (IQR) to handle the outliers.
+<br>
+Results of the Classifer- <br>
 - Area under curve: 0.91378991803
 - f1_score: 0.905041605482
 Confusion Matrix: <br>
@@ -52,18 +56,11 @@ Confusion Matrix: <br>
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
-
-
----
-
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
 ---
 
 ## Current Learning
 
-### Paris Olympics Games Storytelling - Kaggle
+### Paris Olympics Games Storytelling - Kaggle (2024)
 [In Progress] <br>
 Kaggle data for Paris Olympics includes multiple files, covering player stats, venue, schedule, medal tally, and more. I was keen watcher of this Olympics and wanted to narrate story around medal tally, how countries performed and the track games played by one of my favorites, Novak Djokovic to win his first Olympics Gold.
 <br>
