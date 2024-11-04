@@ -5,7 +5,7 @@ Currently a Data Scientist III at Teladoc Health, I lead data science workflow m
 My expertise includes Python, SQL, Databricks, cloud platforms (AWS, Azure), and machine learning. I’ve developed and deployed predictive models, such as sales forecasts for convenience stores, to drive impactful results.
 <br>
 Beyond data, I’m an avid photographer with a love for storytelling through images. Whether in data or landscapes, I’m always exploring and creating.
-<br>
+<br><br>
 Thanks for visiting my GitHub page—feel free to reach out or explore my projects!
 
 ---
