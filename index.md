@@ -39,7 +39,7 @@ Built a Random Forest classifier on high-dimensional data for predicting deal cl
 Results of the Classifer- <br>
 - Area under curve: 0.91378991803
 - f1_score: 0.905041605482
-Confusion Matrix: <br>
+<br>Confusion Matrix: <br>
 
 |                | 0 (Closed) | 1 (Open) |
 |----------------|---------------------|---------------------|
