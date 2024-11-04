@@ -1,5 +1,8 @@
-## My Portfolio
+## About me
 
+I am a Data Science and analytics enthusiast working
+
+## My Portfolio
 ---
 
 ### House Price Prediction
