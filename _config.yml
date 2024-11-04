@@ -1,24 +1,22 @@
-title: Karteek Pradyumna <br> Bulusu # your name (or website title) here
+title: Karteek Pradyumna Bulusu # your name (or website title) here
 logo: "/images/my_linkedin_photo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Experienced Data Scientist with 7+ years in the field, blending expertise from both startups and large enterprises. Master's in Computer Science from the Rochester Institute of Technology.
-  <br><br>
+  <br>
   A venue to learn more about me, my work and interests. 
   <br><br>
   📫 Let's Connect! <br>
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karteekpradyumnabulusu/">View My LinkedIn Profile</a> <br>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/kartikpradyumna92/kartikpradyumna92">View My GitHub Profile</a> <br>
   Email - karteekpbulusu@gmail.com  
-  <br><br><br>
+  <br>
   Tech Stack - <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" width="50" height="30">
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" width="50" height="30"> 
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks" width="50" height="30">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" width="50" height="30">
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" width="50" height="30">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" width="50" height="30">
-  <br><br><br>
-  <br><br><br>            
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" width="50" height="25">
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" width="40" height="25"> 
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks" width="60" height="25">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" width="30" height="25">
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" width="40" height="25">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" width="45" height="25">
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
