@@ -1,6 +1,11 @@
 ## About me
 
-I am a Data Science and analytics enthusiast working
+Currently, I’m a Data Scientist III at Teladoc Health, where I’m leading the migration of data science workflows to new platforms and delivering insights that impact user engagement. My passion for analytics has been shaped by diverse roles and a keen interest in problem-solving. I've implemented data-driven solutions in various domains, including HealthTech and retail, with a focus on leveraging data to enhance business decisions and customer experiences. My technical expertise spans Python, SQL, Databricks, cloud platforms (AWS, Azure), and machine learning algorithms. I'm also experienced in developing and deploying predictive models, such as forecasting sales for convenience stores using machine learning techniques. <br>
+Outside of work, I’m an avid photographer with a love for capturing moments and telling stories through images. Whether it’s data or landscapes, I’m constantly exploring and creating.<br><br>
+
+Thanks for visiting my GitHub page—feel free to reach out or explore my projects!
+
+---
 
 ## My Portfolio
 ---
@@ -63,7 +68,7 @@ Confusion Matrix: <br>
 Kaggle data for Paris Olympics includes multiple files, covering player stats, venue, schedule, medal tally, and more. I was keen watcher of this Olympics and wanted to narrate story around medal tally, how countries performed and the track games played by one of my favorites, Novak Djokovic to win his first Olympics Gold.
 <br>
 Kaggle notebook link to be updated as soon as it's published.
-<br>
+<br><br>
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
