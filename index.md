@@ -38,7 +38,7 @@ Built a Random Forest classifier on high-dimensional data for predicting deal cl
 <br>
 Results of the Classifer- <br>
 - Area under curve: 0.91378991803
-- f1_score: 0.905041605482<br><br>
+- f1_score: 0.905041605482<br>
 
 Confusion Matrix: 
 
@@ -47,11 +47,9 @@ Confusion Matrix:
 | 0 (Closed) |          71809         |          6         |
 | 1 (Open) |          770         |          3698         |
 
-<br>
 
 [Here is the project repo](https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured)
 
-<br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
