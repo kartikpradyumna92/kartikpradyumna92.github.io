@@ -1,16 +1,16 @@
 ## About me
 
-Currently a Data Scientist III at Teladoc Health, I lead data science workflow migrations and deliver insights that boost user engagement. With a strong background across HealthTech and retail, I’m passionate about problem-solving and using data to elevate business decisions and customer experiences.
+Currently a Data Scientist III at Teladoc Health, I lead data science workflow migrations from AWS+ jenkins to Azure Databricks + Cloudbees Jenkins and deliver insights around enrollment trend and product usage. With a strong background across HealthTech and retail, I’m passionate about problem-solving and using data to elevate business decisions and customer experiences.
 <br>
-My expertise includes Python, SQL, Databricks, cloud platforms (AWS, Azure), and machine learning. I’ve developed and deployed predictive models, such as sales forecasts for convenience stores, to drive impactful results.
+My expertise includes Python, SQL, Databricks, cloud platforms (AWS, Azure), Data storytelling, and machine learning. I’ve developed and deployed predictive models, such as sales forecasts for convenience stores, to drive impactful results.
 <br>
 Beyond data, I’m an avid photographer with a love for storytelling through images. Whether in data or landscapes, I’m always exploring and creating.
 <br><br>
-Thanks for visiting my GitHub page—feel free to reach out or explore my projects!
+Thanks for visiting my GitHub page. Feel free to reach out or explore my projects!
 
 ---
 
-## My Portfolio
+## Personal Projects
 ---
 
 ### House Price Prediction - Kaggle (2024)
@@ -61,11 +61,13 @@ Confusion Matrix:
 
 ## Current Learning
 
+Here is a sneak peak in what I am currently working on and learning.
+
 ### Paris Olympics Games Storytelling - Kaggle (2024)
 [In Progress] <br>
-Kaggle data for Paris Olympics includes multiple files, covering player stats, venue, schedule, medal tally, and more. I was keen watcher of this Olympics and wanted to narrate story around medal tally, how countries performed and the track games played by one of my favorites, Novak Djokovic to win his first Olympics Gold.
-<br>
-Kaggle notebook link to be updated as soon as it's published.
+Kaggle data for Paris Olympics includes multiple files, covering player stats, venue, schedule, medal tally, and more. I was keen watcher of Olympics 2024 and wanted to narrate story around it, and track journey of Novak Djokovic to his first Olympics Gold win from data. Novak is GOAT.
+<!--<br>
+ Kaggle notebook link to be updated as soon as it's published. -->
 <br><br>
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
