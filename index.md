@@ -13,6 +13,30 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 ## Personal Projects
 ---
 
+### Data Storytelling of Paris 2024 Olympics - Kaggle (2024)
+<br>
+Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
+
+Storytelling from few point of Views - 
+
+Used Violin chart to under variance of Age per Gender of athletes<br>
+<iframe src="https://www.kaggle.com/embed/kartikpradyumna92/data-story-telling-on-paris-2024-olympics?cellIds=30&kernelSessionId=212174387" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Data Story telling on Paris 2024 Olympics"></iframe>
+
+
+
+[Here is the project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) <br>
+[Here is the Kaggle notebook](https://www.kaggle.com/code/kartikpradyumna92/data-story-telling-on-paris-2024-olympics) <br>
+
+
+<br>
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-30A9DE?style=flat&logo=seaborn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-003B57?style=flat&logo=matplotlib&logoColor=white)
+
+
+---
 ### House Price Prediction - Kaggle (2024)
 
 Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
@@ -60,21 +84,6 @@ Confusion Matrix:
 ## Current Learning
 
 Here is a sneak peak in what I am currently working on and learning.
-
-### Paris Olympics Games Storytelling - Kaggle (2024)
-[In Progress] <br>
-Kaggle data for Paris Olympics includes multiple files, covering player stats, venue, schedule, medal tally, and more. I was keen watcher of Olympics 2024 and wanted to narrate story around it, and track journey of Novak Djokovic to his first Olympics Gold win from data. Novak is GOAT.
-<!--<br>
- Kaggle notebook link to be updated as soon as it's published. -->
-<br><br>
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-30A9DE?style=flat&logo=seaborn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-003B57?style=flat&logo=matplotlib&logoColor=white)
-
-
-
 
 ---
 
