@@ -19,8 +19,21 @@ Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024
 
 Storytelling from few point of Views - 
 
-Used Violin chart to under variance of Age per Gender of athletes<br>
-<iframe src="/Users/karteekpbulusu/Documents/KB_DataScience/kartikpradyumna92.github.io/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.html" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Data Story telling on Paris 2024 Olympics"></iframe>
+1. Overall athletes POV - <br>
+Used Violin chart to understand variance of Age per Gender of athletes<br>
+<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true"/>
+<br>
+<img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true"/>
+
+2. An athlete's POV - Novak Djokovic <br>
+I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
+Used scatterplot to plot his journey to his Gold medal.<br>
+<img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true"/>
+<br>
+3. Medalists POV - <br>
+Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
+<img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true"/>
+<br>
 
 
 
