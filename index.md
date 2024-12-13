@@ -21,7 +21,7 @@ Storytelling from few point of Views -
 
 1. Overall athletes POV - <br>
 Used Violin chart to understand variance of Age per Gender of athletes<br>
-<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true"/>
+<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="600" height="500" />
 <br>
 <img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true"/>
 
