@@ -20,7 +20,7 @@ Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024
 Storytelling from few point of Views - 
 
 Used Violin chart to under variance of Age per Gender of athletes<br>
-<iframe src="https://www.kaggle.com/embed/kartikpradyumna92/data-story-telling-on-paris-2024-olympics?cellIds=30&kernelSessionId=212174387" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Data Story telling on Paris 2024 Olympics"></iframe>
+<iframe src="/Users/karteekpbulusu/Documents/KB_DataScience/kartikpradyumna92.github.io/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.html" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Data Story telling on Paris 2024 Olympics"></iframe>
 
 
 
