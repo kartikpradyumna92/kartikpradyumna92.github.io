@@ -14,24 +14,22 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 ---
 
 ### Data Storytelling of Paris 2024 Olympics - Kaggle (2024)
-<br>
 Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
 
-Storytelling from few point of Views - 
-
-1. __Overall athletes POV__ <br>
+Storytelling from few point of Views -
+__1. Overall athletes POV__ <br>
 Used Violin chart to understand variance of Age per Gender of athletes<br>
 <img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
 <br>
 <img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
 
-2. __An athlete's POV - Novak Djokovic__ <br>
+__2. An athlete's POV - Novak Djokovic__ <br>
 I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
 Used scatterplot to plot his journey to his Gold medal.<br>
 <img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
 <br>
 
-3. __Medalists POV__ <br>
+__3. Medalists POV__ <br>
 Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
 <img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
 <br>
