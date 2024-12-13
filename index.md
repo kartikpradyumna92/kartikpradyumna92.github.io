@@ -19,28 +19,24 @@ Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024
 
 Storytelling from few point of Views - 
 
-1. Overall athletes POV - <br>
+1. __Overall athletes POV__ <br>
 Used Violin chart to understand variance of Age per Gender of athletes<br>
-<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="300" />
+<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
 <br>
-<img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="300" />
+<img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
 
-2. An athlete's POV - Novak Djokovic <br>
+2. __An athlete's POV - Novak Djokovic__ <br>
 I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
 Used scatterplot to plot his journey to his Gold medal.<br>
-<img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="300" />
+<img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
 <br>
-3. Medalists POV - <br>
+
+3. __Medalists POV__ <br>
 Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
-<img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="300" />
+<img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
 <br>
-
-
-
-[Here is the project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) <br>
+[Here is the GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) <br>
 [Here is the Kaggle notebook](https://www.kaggle.com/code/kartikpradyumna92/data-story-telling-on-paris-2024-olympics) <br>
-
-
 <br>
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -58,7 +54,7 @@ Features were correlated to each other and hence suffered with multicollinearity
 <br>
 Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
 This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the test data. <br><br>
-[Here is the project repo](https://github.com/kartikpradyumna92/Kaggle_House_Price_Predictions) <br>
+[Here is the GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_House_Price_Predictions) <br>
 [Here is the Kaggle notebook](https://www.kaggle.com/code/kartikpradyumna92/housing-price-prediction/notebook) <br>
 <br>
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
@@ -85,7 +81,7 @@ Confusion Matrix:
 | 1 (Open) |          770         |          3698         |
 
 
-[Here is the project repo](https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured)
+[Here is the GitHub project repo](https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured)
 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
