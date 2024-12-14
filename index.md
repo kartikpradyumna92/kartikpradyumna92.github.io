@@ -13,26 +13,31 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 ## Personal Projects
 ---
 
-### Data Storytelling of Paris 2024 Olympics - Kaggle (2024)
-Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
+<details>
+  <summary> ### Data Storytelling of Paris 2024 Olympics - Kaggle (2024)</summary>
+  
+    Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
 
-Storytelling from few point of Views -
-__1. Overall athletes POV__ <br>
-Used Violin chart to understand variance of Age per Gender of athletes<br>
-<img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
-<br>
-<img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
+    Storytelling from few point of Views -
+    __1. Overall athletes POV__ <br>
+    Used Violin chart to understand variance of Age per Gender of athletes<br>
+    <img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
+    <br>
+    <img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
 
-__2. An athlete's POV - Novak Djokovic__ <br>
-I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
-Used scatterplot to plot his journey to his Gold medal.<br>
-<img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
-<br>
+    __2. An athlete's POV - Novak Djokovic__ <br>
+    I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
+    Used scatterplot to plot his journey to his Gold medal.<br>
+    <img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
+    <br>
 
-__3. Medalists POV__ <br>
-Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
-<img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
-<br>
+    __3. Medalists POV__ <br>
+    Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
+    <img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
+    <br>
+  
+</details>
+
 [Here is the GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) <br>
 [Here is the Kaggle notebook](https://www.kaggle.com/code/kartikpradyumna92/data-story-telling-on-paris-2024-olympics) <br>
 <br>
