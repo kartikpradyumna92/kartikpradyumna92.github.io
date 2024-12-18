@@ -14,7 +14,7 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 ---
 
 <details>
-  <summary> ### Data Storytelling of Paris 2024 Olympics - Kaggle (2024)</summary>
+  <summary> <h2> Data Storytelling of Paris 2024 Olympics - Kaggle (2024) </h2> </summary>
   
     Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
 
@@ -49,14 +49,18 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 
 
 ---
-### House Price Prediction - Kaggle (2024)
+<details>
+  <summary> <h2> House Price Prediction - Kaggle (2024) </h2> </summary>
 
-Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
-Features were correlated to each other and hence suffered with multicollinearity. Below is the correlation matrix showcasing it.
-<img src="images/house_price_corr_matrix.png?raw=true"/>
-<br>
-Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
-This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the test data. <br><br>
+  Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
+  Features were correlated to each other and hence suffered with multicollinearity. Below is the correlation matrix showcasing it.
+  <img src="images/house_price_corr_matrix.png?raw=true"/>
+  <br>
+  Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
+  This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the test data. <br><br>
+
+</details>
+
 [Here is the GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_House_Price_Predictions) <br>
 [Here is the Kaggle notebook](https://www.kaggle.com/code/kartikpradyumna92/housing-price-prediction/notebook) <br>
 <br>
