@@ -1,12 +1,14 @@
 ## About me
-
-Currently a Data Scientist III at Teladoc Health, I lead data science workflow migrations from AWS+ jenkins to Azure Databricks + Cloudbees Jenkins and deliver insights around enrollment trend and product usage. With a strong background across HealthTech and retail, I’m passionate about problem-solving and using data to elevate business decisions and customer experiences.
 <br>
-My expertise includes Python, SQL, Databricks, cloud platforms (AWS, Azure), Data storytelling, and machine learning. I’ve developed and deployed predictive models, such as sales forecasts for convenience stores, to drive impactful results.
+Hi there!
 <br>
-Beyond data, I’m an avid photographer with a love for storytelling through images. Whether in data or landscapes, I’m always exploring and creating.
+I’m a Data Scientist III at Teladoc Health, driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees and delivering actionable insights on enrollment trends and product usage. With expertise spanning HealthTech and Retail, I excel at leveraging data to solve complex problems, enhance decision-making, and transform customer experiences.
+<br>
+As an experienced full-stack data scientist, I’m proficient in Python, SQL, Databricks, Tableau, AWS, and Azure, with a proven track record of performing impactful analytics, visual story-telling and building predictive insights. Data storytelling is my superpower—turning insights into compelling narratives that drive results.
 <br><br>
-Thanks for visiting my GitHub page. Feel free to reach out or explore my projects!
+When I’m not working with data, you’ll find me behind a camera, capturing stories through photography. Whether it’s data or bird photography, I’m always exploring, creating, innovating, and showing attention to detail.
+<br>
+Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ---
 
@@ -18,34 +20,34 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
   
   Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
 
-  Storytelling from few point of Views -<br><br>
-  __1. Overall athletes POV__ <br>
+  Storytelling from few point of Views:<br><br>
+  <b>_1. Overall athletes POV_</b> <br>
   Story around Age and Gender<br>
 
   <img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Violin chart depicting vriance of Age per Gender.</p>
   <br>
-  Ranking based on most athletes from a Country, color codes on Discpline. Most athletes from each country seem to be part of Athletics discline. Athletics combines all track and field events like running, long jump and more.<br>
+  Story on athletes from select few countries, color codes on Discpline. Most athletes from each country seem to be part of Athletics discline. Athletics combines all track and field events like running, long jump and more.<br>
   
   <br>
   <img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram of top countries based on # of athletes representing it.</p>
 
-  __2. An athlete's POV - Novak Djokovic__ <br>
-  I am fan of Novak and seeing him win his first Olympics Gold medal was very satisfying. <br>
+  <b>_2. An athlete's POV - Novak Djokovic_</b> <br>
+  I am a fan of Novak, and his first Olympic gold was a long time coming. <br>
 
   <img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Scatterplot to plot Djokovic's journey to his Olympic Gold medal.</p>
   
 
-  __3. Medalists POV__ <br>
-  Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. We could most medals are won by USA. <br>
+  <b>_3. Medalists POV_</b> <br>
+  Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. USA won the most Gold olympics medals. <br>
 
   <img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram for Gold Medalists.</p>
   <br>
   
-  Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots.<br>
+  _Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots._<br>
 </details><br>
 
 [GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -62,8 +64,7 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 <details>
   <summary> <b> &nbsp; House Price Prediction - Kaggle (2024) </b> </summary>
   <br>
-
-  Used Kaggle dataset on House Prices to predict the prices given multitude of features  like area, bedrooms, and more.<br>
+  Used Kaggle dataset on House Prices to predict the prices given multitude of features like area, bedrooms, and more.<br>
   Features were correlated to each other and hence suffered with multicollinearity. Below is the correlation matrix showcasing it. <br><br>
   <img src="images/house_price_corr_matrix.png?raw=true"/>
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Correlation Matrix of the features.</p>
@@ -94,7 +95,7 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
     - Area under curve: 0.91378991803<br>
     - f1_score: 0.905041605482<br>
 
-  __<b>Confusion Matrix:</b>__
+  _<b>Confusion Matrix:</b>_<br>
 
       |                | 0 (Closed)          | 1 (Open)            |
       |----------------|---------------------|---------------------|
@@ -114,8 +115,11 @@ Thanks for visiting my GitHub page. Feel free to reach out or explore my project
 ---
 
 ## Current Learning
-
-Here is a sneak peak in what I am currently working on and learning.
+_These initiatives are in progress_ <br>
+<b>_1. Movie Recommender RAG using LLM_</b> <br>
+Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
+<br><br>
+Tech Stack: Python, Streamlit, Ollama
 
 ---
 
