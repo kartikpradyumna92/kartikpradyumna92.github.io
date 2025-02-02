@@ -1,4 +1,5 @@
 ## About me
+<p allign="justify">
 <br>
 Hi there!
 <br>
@@ -9,7 +10,7 @@ As an experienced full-stack data scientist, I’m proficient in Python, SQL, Da
 When I’m not working with data, you’ll find me behind a camera, capturing stories through photography. Whether it’s data or bird photography, I’m always exploring, creating, innovating, and showing attention to detail.
 <br>
 Thanks for stopping by! Feel free to connect or dive into my projects.
-
+</p>
 ---
 
 ## Personal Projects
