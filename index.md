@@ -1,11 +1,11 @@
 # About me
 Hi there!
 <br>
-I’m a Data Scientist III at Teladoc Health, driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees and delivering actionable insights on enrollment trends and product usage. With expertise spanning HealthTech and Retail, I excel at leveraging data to solve complex problems, enhance decision-making, and transform customer experiences.
+I’m a Data Scientist III at Teladoc Health, delivering actionable insights on enrollment trends and product usage, streamling data reporting, and driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees.
 <br>
-As an experienced full-stack data scientist, I’m proficient in Python, SQL, Databricks, Tableau, AWS, and Azure, with a proven track record of performing impactful analytics, visual story-telling and building predictive insights. Data storytelling is my superpower—turning insights into compelling narratives that drive results.
+Proven track record in HealthTech and Retail, leveraging data to solve problems, enhance decisions, and transform customer experiences. Expertise in Python, SQL, Databricks, Tableau, AWS, and Azure, with a knack for impactful analytics, visual storytelling, and predictive insights.
 <br><br>
-When I’m not working with data, you’ll find me behind a camera, capturing stories through photography. Whether it’s data or bird photography, I’m always exploring, creating, innovating, and showing attention to detail.
+Outside of work, I'm a photography enthusiast, capturing the world through my lens. Whether it's data or birds, I'm always exploring, creating, and innovating with a keen eye for detail.
 <br><br>
 Thanks for stopping by! Feel free to connect or dive into my projects.
 
