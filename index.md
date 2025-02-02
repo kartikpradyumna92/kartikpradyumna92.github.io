@@ -46,7 +46,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram for Gold Medalists.</p>
   <br>
   
-  _Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots._ <br>
+  *Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots.* <br>
 </details><br>
 
 [GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -115,8 +115,9 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ## Current Learning
 _These initiatives are in progress_ <br>
---
-<b>_1. Movie Recommender RAG using LLM_</b> <br>
+---
+
+<b> *1. Movie Recommender RAG using LLM* </b> <br>
 Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
 <br><br>
 Tech Stack: Python, Streamlit, Ollama
