@@ -1,4 +1,4 @@
-## About me
+# About me
 Hi there!
 <br>
 I’m a Data Scientist III at Teladoc Health, driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees and delivering actionable insights on enrollment trends and product usage. With expertise spanning HealthTech and Retail, I excel at leveraging data to solve complex problems, enhance decision-making, and transform customer experiences.
@@ -11,8 +11,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ---
 
-## Personal Projects
----
+# Personal Projects
 
 <details>
   <summary> <b> &nbsp; Data Storytelling of Paris 2024 Olympics - Kaggle (2024) </b> </summary>
@@ -46,7 +45,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram for Gold Medalists.</p>
   <br>
   
-  *Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots.* <br>
+  Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots. <br>
 </details><br>
 
 [GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -68,7 +67,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
   <img src="images/house_price_corr_matrix.png?raw=true"/>
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Correlation Matrix of the features.</p>
   <br>
-  Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
+  *Note :* Used Lasso and Ridge regression since they handle multi-variable data, and multicollinearity well. <br>
   This has improved the accuracy, achieved r2 score = 0.7092047042418796 on the test data. <br><br>
 
 </details><br>
@@ -113,9 +112,8 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ---
 
-## Current Learning
+# Current Learning
 _These initiatives are in progress_ <br>
----
 
 <b> *1. Movie Recommender RAG using LLM* </b> <br>
 Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
