@@ -1,6 +1,4 @@
 ## About me
-<p allign="justify">
-<br>
 Hi there!
 <br>
 I’m a Data Scientist III at Teladoc Health, driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees and delivering actionable insights on enrollment trends and product usage. With expertise spanning HealthTech and Retail, I excel at leveraging data to solve complex problems, enhance decision-making, and transform customer experiences.
@@ -8,9 +6,9 @@ I’m a Data Scientist III at Teladoc Health, driving workflow migrations from A
 As an experienced full-stack data scientist, I’m proficient in Python, SQL, Databricks, Tableau, AWS, and Azure, with a proven track record of performing impactful analytics, visual story-telling and building predictive insights. Data storytelling is my superpower—turning insights into compelling narratives that drive results.
 <br><br>
 When I’m not working with data, you’ll find me behind a camera, capturing stories through photography. Whether it’s data or bird photography, I’m always exploring, creating, innovating, and showing attention to detail.
-<br>
+<br><br>
 Thanks for stopping by! Feel free to connect or dive into my projects.
-</p>
+
 ---
 
 ## Personal Projects
@@ -22,7 +20,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
   Data Story telling on Paris 2024 Olympics. Understand the data around Paris 2024 Olympics and visualize interesting findings.
 
   Storytelling from few point of Views:<br><br>
-  <b>_1. Overall athletes POV_</b> <br>
+  <b>1. Overall athletes POV</b> <br>
   Story around Age and Gender<br>
 
   <img src="images/kaggle_paris_olympics_results/violin_chart_athletes_age_per_gender.png?raw=true" width="1000" height="350" />
@@ -34,21 +32,21 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
   <img src="images/kaggle_paris_olympics_results/athletes_per_discipline_per_country.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram of top countries based on # of athletes representing it.</p>
 
-  <b>_2. An athlete's POV - Novak Djokovic_</b> <br>
+  <b>2. An athlete's POV - Novak Djokovic</b> <br>
   I am a fan of Novak, and his first Olympic gold was a long time coming. <br>
 
   <img src="images/kaggle_paris_olympics_results/novak_djokovic_journey.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Scatterplot to plot Djokovic's journey to his Olympic Gold medal.</p>
   
 
-  <b>_3. Medalists POV_</b> <br>
+  <b>3. Medalists POV</b> <br>
   Plotted histogram for Gold medalists on Country and Discpline level to understand the ranking. USA won the most Gold olympics medals. <br>
 
   <img src="images/kaggle_paris_olympics_results/gold_medalists_summary.png?raw=true" width="1000" height="350" />
   <p style="text-align: center; font-size: smaller; font-style: italic;">fig: Histogram for Gold Medalists.</p>
   <br>
   
-  _Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots._<br>
+  _Used <a href='https://plotly.com/'>plotly</a>  for visualization because of it's very interactive and ease of use. Check out my Kaggle notebook to view the interactive plots._ <br>
 </details><br>
 
 [GitHub project repo](https://github.com/kartikpradyumna92/Kaggle_Paris2024_Olympics) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -117,6 +115,7 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ## Current Learning
 _These initiatives are in progress_ <br>
+--
 <b>_1. Movie Recommender RAG using LLM_</b> <br>
 Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
 <br><br>
