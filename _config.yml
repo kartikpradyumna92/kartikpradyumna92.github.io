@@ -1,11 +1,11 @@
 title: Karteek Pradyumna Bulusu # your name (or website title) here
 logo: "/images/my_linkedin_photo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Experienced Data Scientist with 7+ years in the field, blending expertise from both startups and large enterprises. Master's in Computer Science from the Rochester Institute of Technology.
+  Experienced Data Scientist with 7+ years in the field, blending expertise from both startups and large enterprises. Master's in CS from the Rochester Institute of Technology.
   <br><br>
   📫 Let's Connect! <br>
-  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karteekpradyumnabulusu/">View My LinkedIn Profile</a> <br>
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/kartikpradyumna92">View My GitHub Profile</a> <br>
+  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karteekpradyumnabulusu/">LinkedIn Profile</a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/kartikpradyumna92">GitHub Profile</a> <br>
   Email - karteekpbulusu@gmail.com <br>
   <br>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" width="55" height="25">
@@ -14,7 +14,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" width="30" height="25">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" width="40" height="25">
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" width="55" height="25">
-<br><br>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
