@@ -1,9 +1,9 @@
 # About me
 Hi there!
 <br>
-I’m a Data Scientist III at Teladoc Health, delivering actionable insights on enrollment trends and product usage, streamling data reporting, and driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees.
+I’m a Data Scientist III at Teladoc Health, delivering actionable insights on member enrollment trends and product usage, streamling data reporting, and driving workflow migrations from AWS + Jenkins to Azure Databricks + CloudBees.
 <br>
-Proven track record in HealthTech and Retail, leveraging data to solve problems, enhance decisions, and transform customer experiences. Expertise in Python, SQL, Databricks, Tableau, AWS, and Azure, with a knack for impactful analytics, visual storytelling, and predictive insights.
+Proven track record in HealthTech and Retail, leveraging data to solve problems, enhance decisions, and transform member and product experiences. Expertise in Python, SQL, Databricks, Tableau, AWS, and Azure, with a knack for impactful analytics, visual storytelling, statistical inference to make data-driven decisions.
 <br><br>
 Outside of work, I'm a photography enthusiast, capturing the world through my lens. Whether it's data or birds, I'm always exploring, creating, and innovating with a keen eye for detail.
 <br><br>
@@ -112,14 +112,23 @@ Thanks for stopping by! Feel free to connect or dive into my projects.
 
 ---
 
+# Personal Courses
+1. AB Testing, Datainterview. Instructor - [Dan Lee](https://www.linkedin.com/in/danleedata/) <br>
+2. Python for DS &AI. Instructor - [Thu Vu](https://www.linkedin.com/in/thu-hien-vu-3766b174/) <br>
+3. AI for Everyone, Coursera. Instructor - [Andrew Ng](https://www.linkedin.com/in/andrewyng/) <br>
+<br>
+
+---
+
 # Current Learning
 _These initiatives are in progress_ <br>
 
-<b> *1. Movie Recommender RAG using LLM* </b> <br>
+1. Movie Recommender RAG using LLM <br>
 Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
-<br><br>
-Tech Stack: Python, Streamlit, Ollama
+<br>
+Tech Stack: Python, Streamlit, Ollama <br>
 
+2. Course - Bayesian Statistics: From Concept to Data Analysis, Coursera. Instructor - [Herbert Lee](https://www.coursera.org/instructor/ucsc)
 ---
 
 
