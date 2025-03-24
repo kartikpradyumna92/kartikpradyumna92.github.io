@@ -128,7 +128,9 @@ Building personalized movie recommender and review system using open source LLM 
 <br>
 Tech Stack: Python, Streamlit, Ollama <br>
 <br>
+
 2. Course - Bayesian Statistics: From Concept to Data Analysis, Coursera. Instructor - [Herbert Lee](https://www.coursera.org/instructor/ucsc)<br><br>
+
 ---
 
 
