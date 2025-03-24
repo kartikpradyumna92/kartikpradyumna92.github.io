@@ -127,8 +127,8 @@ _These initiatives are in progress_ <br>
 Building personalized movie recommender and review system using open source LLM models. Using Ollama to locally run open source LLM models and connect to my webapp.
 <br>
 Tech Stack: Python, Streamlit, Ollama <br>
-
-2. Course - Bayesian Statistics: From Concept to Data Analysis, Coursera. Instructor - [Herbert Lee](https://www.coursera.org/instructor/ucsc)
+<br>
+2. Course - Bayesian Statistics: From Concept to Data Analysis, Coursera. Instructor - [Herbert Lee](https://www.coursera.org/instructor/ucsc)<br><br>
 ---
 
 
