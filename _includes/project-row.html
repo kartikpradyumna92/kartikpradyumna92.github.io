@@ -1,0 +1,23 @@
+{%- comment -%}
+  Compact project row. Param: project. Collection documents open their
+  case-study page; rows from _data/more_projects.yml link to their repository.
+{%- endcomment -%}
+{%- assign p = include.project -%}
+{%- if p.collection == "projects" -%}
+  {%- assign href = p.url | relative_url -%}{%- assign external = false -%}
+{%- else -%}
+  {%- assign href = p.links.repo -%}{%- assign external = true -%}
+{%- endif -%}
+<li class="index-row reveal">
+  <div class="index-row__main">
+    <h4 class="index-row__title">
+      <a href="{{ href }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{{ p.title }}{% if external %}<span class="visually-hidden"> on GitHub (opens in a new tab)</span>{% include icon.html name="arrow-up-right" %}{% else %}{% include icon.html name="arrow-right" %}{% endif %}</a>
+    </h4>
+    <p class="index-row__summary">{{ p.summary }}</p>
+    <p class="index-row__stack">{% if p.methods %}{{ p.methods | slice: 0, 3 | join: " · " }}{% else %}{{ p.stack | join: " · " }}{% endif %}</p>
+  </div>
+  <p class="index-row__meta"><span>{{ p.kind }}</span><span>{{ p.date_label }}</span></p>
+  <div class="index-row__links">
+    {% include project-links.html links=p.links title=p.title %}
+  </div>
+</li>

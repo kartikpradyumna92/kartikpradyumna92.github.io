@@ -1,0 +1,96 @@
+# Work history, newest first. Facts mirror the resume; only the wording is edited.
+# A highlight's optional `metric` is shown in the figure column beside it.
+
+- company: Teladoc Health
+  period: Nov 2020 – Present
+  context: Virtual care — weight management and diabetes prevention programs
+  roles:
+    - title: Data Scientist III
+      period: Sep 2022 – Present
+      highlights:
+        - metric: { value: "+3%", label: device engagement lift }
+          text: >-
+            Led analytics for the GLP-1 Weight Management launch. Defined the
+            Product, Member and Health KPIs, then used a difference-in-differences
+            analysis to isolate a <strong>+3% lift in device engagement</strong>
+            within the target segment.
+          tags: [Causal inference, KPI design, Product launch]
+        - metric: { value: "55% → 75%", label: weigh-in completion }
+          text: >-
+            Went after one of the largest drop-offs in the engagement funnel. An
+            in-app nudge, A/B tested across <strong>80k members over 30 days</strong>,
+            raised weigh-in completion from <strong>55% to 75%</strong>
+            (z-test, p&nbsp;&lt;&nbsp;0.05).
+          tags: [A/B testing, Funnel analysis]
+        - metric: { value: "20+", label: dbt models }
+          text: >-
+            Designed and maintain 20+ dimensional, fact and intermediate
+            <strong>dbt models</strong> on member and clinical data in Snowflake,
+            orchestrated with Airflow DAGs and used by ML, Finance and Analytics.
+          tags: [dbt, Snowflake, Airflow]
+        - metric: { value: "2×", label: sprint velocity }
+          text: >-
+            Integrated Cursor and Claude Code into daily development of these
+            models, <strong>doubling sprint velocity</strong>.
+          tags: [AI-assisted development, Cursor, Claude Code]
+        - metric: { value: "+3.5%", label: engagement vs forecast }
+          text: >-
+            Designed and ran a member incentive program with the Client team for
+            an at-risk payer account whose device engagement was declining.
+            Monthly reporting tracked it against forecast: <strong>+3.5% engagement
+            uplift over six months</strong>.
+          tags: [Program design, Stakeholder partnership]
+
+    - title: Data Scientist II
+      period: Nov 2020 – Aug 2022
+      highlights:
+        - text: >-
+            Built a <strong>single-source-of-truth acquisition funnel</strong>
+            (eligibility → enrollment → active users) in Tableau, replacing the
+            manual spreadsheets used by Client, Finance, Member Support and
+            executive leadership.
+          tags: [Funnel metrics, Tableau]
+        - metric: { value: "+2%", label: members meeting CDC criteria }
+          text: >-
+            Used time-series trend analysis in Databricks to flag members close
+            to the ≥5% weight-loss threshold, so coaches could spend limited
+            capacity where it mattered. <strong>2% more members met CDC weight-loss
+            criteria</strong>, supporting CDC Diabetes Prevention Program certification.
+          tags: [Time series, Databricks, Operational analytics]
+        - metric: { value: "15%", label: faster report turnaround }
+          text: >-
+            Migrated the reporting pipeline from Jenkins to CloudBees-orchestrated
+            Databricks jobs on Unity Catalog, cutting new-report turnaround by
+            <strong>15%</strong> and improving module reuse and error tracking
+            across teams.
+          tags: [Data pipelines, Databricks, CloudBees]
+
+- company: Skupos
+  period: Dec 2017 – Oct 2020
+  context: Early-stage startup working with convenience-store transaction data
+  roles:
+    - title: Data Scientist
+      period: Dec 2017 – Oct 2020
+      highlights:
+        - text: >-
+            Partnered with stakeholders to define company KPIs and the analytics
+            roadmap, and built the <strong>source-of-truth tables and dashboards</strong>
+            tracking company-wide product health.
+          tags: [KPI design, Data modeling]
+        - metric: { value: "150+", label: stores forecast }
+          text: >-
+            Developed and scaled a <strong>Prophet time-series model</strong>
+            forecasting sales of high-volume SKUs (e.g. Diet Coke) across 150+
+            convenience stores, automating inventory decisions to reduce
+            over-deliveries and stockouts.
+          tags: [Forecasting, Prophet]
+        - text: >-
+            Closed the loop with a Python + Plotly <strong>monitoring dashboard</strong>
+            comparing forecast vs. actual sales and distributor-reported deliveries,
+            so model performance could be tracked and improved.
+          tags: [Model monitoring, Plotly]
+        - text: >-
+            Ran <strong>market basket analysis</strong> on retail transactions and
+            built Tableau dashboards on item rank, market share and discount spend
+            for Sales and Marketing.
+          tags: [Market basket analysis, Tableau]

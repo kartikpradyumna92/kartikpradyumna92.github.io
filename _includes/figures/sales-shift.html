@@ -1,0 +1,36 @@
+{%- comment -%}
+  Average daily sales by purchaser gender before/after 29 Apr 2013.
+  Counts from the notebook's pre/post totals ÷ days (210 before, 140 after); scale 0–750.
+{%- endcomment -%}
+<figure class="viz" aria-labelledby="viz-sales-caption">
+  <div class="viz__block">
+    <div class="viz__head">
+      <p class="viz__label">Average daily sales, by purchaser</p>
+      <ul class="viz__legend" role="list">
+        <li><span class="swatch swatch--muted"></span>Female</li>
+        <li><span class="swatch swatch--accent"></span>Male</li>
+      </ul>
+    </div>
+    <dl class="stack">
+      <div class="stack__row">
+        <dt>Before 29 Apr <span class="viz__muted">210 days · 504 / day</span></dt>
+        <dd>
+          <span class="stack__bar" style="--v: 67.3%">
+            <span class="stack__seg stack__seg--muted" style="--s: 64.8%" title="Female: 327 a day (64.8%)">327</span><span class="stack__seg stack__seg--accent" style="--s: 35.2%" title="Male: 178 a day (35.2%)">178</span>
+          </span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt>From 29 Apr <span class="viz__muted">140 days · 703 / day</span></dt>
+        <dd>
+          <span class="stack__bar" style="--v: 93.7%">
+            <span class="stack__seg stack__seg--muted" style="--s: 39.8%" title="Female: 280 a day (39.8%)">280</span><span class="stack__seg stack__seg--accent" style="--s: 60.2%" title="Male: 423 a day (60.2%)">423</span>
+          </span>
+        </dd>
+      </div>
+    </dl>
+  </div>
+  <figcaption class="viz__caption" id="viz-sales-caption">
+    <span>Female share 64.8% → 39.8%</span><span>z ≈ −113</span><span>Welch’s t = −44.4</span>
+  </figcaption>
+</figure>

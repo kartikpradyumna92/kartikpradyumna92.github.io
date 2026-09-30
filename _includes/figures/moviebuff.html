@@ -1,0 +1,29 @@
+{%- comment -%} How one MovieBuff chat turn flows through the system (from chat.py). {%- endcomment -%}
+<figure class="viz viz--flow" aria-labelledby="viz-flow-caption">
+  <p class="viz__label">One chat turn</p>
+  <ol class="flow" role="list">
+    <li class="flow__step">
+      <span class="flow__name">Message</span>
+      <span class="flow__desc">“Recommend something for tonight”</span>
+    </li>
+    <li class="flow__step">
+      <span class="flow__name">Retrieve</span>
+      <span class="flow__desc">Embedded locally with MiniLM, then cosine-matched to the 40 most relevant titles. No API call.</span>
+    </li>
+    <li class="flow__step flow__step--accent">
+      <span class="flow__name">Reason</span>
+      <span class="flow__desc">An open-source LLM on Groq, given focused context and three tools</span>
+    </li>
+    <li class="flow__step">
+      <span class="flow__name">Act</span>
+      <span class="flow__desc"><code>query_movies</code> · <code>add_movie</code> · <code>update_movie</code> against Notion</span>
+    </li>
+    <li class="flow__step">
+      <span class="flow__name">Respond</span>
+      <span class="flow__desc">An answer grounded in tool results, with at most 4 tool rounds</span>
+    </li>
+  </ol>
+  <figcaption class="viz__caption" id="viz-flow-caption">
+    <span>Notion is the system of record</span><span>The same data feeds the Analytics tab</span>
+  </figcaption>
+</figure>

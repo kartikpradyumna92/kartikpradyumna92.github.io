@@ -1,0 +1,37 @@
+{%- comment -%}
+  Featured project on the home page. Params: project, index.
+  Grid areas put the result figure beside the text on wide screens and
+  directly under the summary on narrow ones.
+{%- endcomment -%}
+{%- assign p = include.project -%}
+<article class="feature reveal" aria-labelledby="feature-{{ p.slug }}">
+  <div class="feature__head">
+    <p class="meta">
+      <span class="meta__index">Case {{ include.index | prepend: "0" | slice: -2, 2 }}</span>
+      <span>{{ p.kind }}</span>
+      <span>{{ p.date_label }}</span>
+    </p>
+    <h3 class="feature__title" id="feature-{{ p.slug }}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p class="feature__summary">{{ p.summary }}</p>
+  </div>
+
+  <div class="feature__visual">
+    {% include figures/{{ p.figure }}.html %}
+  </div>
+
+  <div class="feature__details">
+    <dl class="par">
+      <div class="par__item"><dt>Problem</dt><dd>{{ p.problem }}</dd></div>
+      <div class="par__item"><dt>Approach</dt><dd>{{ p.approach }}</dd></div>
+      <div class="par__item par__item--result"><dt>Result</dt><dd>{{ p.result }}</dd></div>
+    </dl>
+    <p class="feature__stack"><span class="visually-hidden">Methods: </span>
+      {%- for m in p.methods %}<span class="tag">{{ m }}</span>{% endfor -%}
+    </p>
+    <p class="feature__tech"><span class="feature__tech-label">Stack</span> {{ p.stack | join: " · " }}</p>
+    <div class="feature__actions">
+      <a class="btn btn--primary btn--small" href="{{ p.url | relative_url }}">Read the case study<span class="visually-hidden">: {{ p.title }}</span>{% include icon.html name="arrow-right" %}</a>
+      {% include project-links.html links=p.links title=p.title %}
+    </div>
+  </div>
+</article>

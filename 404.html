@@ -1,0 +1,18 @@
+---
+title: Page not found
+description: This page doesn't exist. Head back to the portfolio of Karteek Pradyumna Bulusu.
+permalink: /404.html
+sitemap: false
+body_class: page page--404
+---
+<section class="not-found" aria-labelledby="nf-title">
+  <div class="container">
+    <p class="meta"><span>404</span></p>
+    <h1 class="not-found__title" id="nf-title">No significant result at this address.</h1>
+    <p class="not-found__text">The page you were looking for doesn’t exist, or has moved.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ '/' | relative_url }}">{% include icon.html name="arrow-left" %}Back to the portfolio</a>
+      <a class="btn btn--secondary" href="{{ '/' | relative_url }}#projects">See projects</a>
+    </div>
+  </div>
+</section>

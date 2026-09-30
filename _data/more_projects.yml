@@ -1,0 +1,34 @@
+# Smaller projects with no case-study page; each row links out to its source.
+- title: House Price Regression
+  kind: Machine learning
+  date_label: 2024
+  summary: >-
+    Predicting prices for 545 homes with heavily collinear features. Merging
+    features by hand to cut VIF destroyed the signal (test R² 0.08), while a
+    Lasso model on the original features reached test R² 0.71.
+  stack: [scikit-learn, statsmodels, pandas]
+  links:
+    repo: https://github.com/kartikpradyumna92/house-price-predictions
+    kaggle: https://www.kaggle.com/code/kartikpradyumna92/housing-price-prediction
+
+- title: Deal-Capture Classifier
+  kind: Machine learning
+  date_label: 2017 · graduate work
+  summary: >-
+    About 100k rows of dealership data with a 5.8% positive class. Used
+    extra-trees feature selection, IQR outlier filtering and a bagging ensemble
+    to estimate the probability that a deal is captured.
+  stack: [scikit-learn, pandas, NumPy]
+  links:
+    repo: https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured
+
+- title: Hue & Seek
+  kind: Side build · Android
+  date_label: 2026
+  summary: >-
+    A daily photo-walk app built around a single color. A photo only counts if
+    perceptual color analysis confirms the day’s color is the subject: HSV
+    with center weighting, plus an OKLAB distance check.
+  stack: [Kotlin, Jetpack Compose, CameraX, Room]
+  links:
+    repo: https://github.com/kartikpradyumna92/Hue-and-Seek

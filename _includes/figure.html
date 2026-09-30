@@ -1,0 +1,7 @@
+{%- comment -%} Notebook figure on a white plate. Params: src, w, h, alt, caption. {%- endcomment -%}
+<figure class="figure">
+  <div class="figure__plate"><img src="{{ include.src | relative_url }}" width="{{ include.w }}" height="{{ include.h }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async"></div>
+  {%- if include.caption %}
+  <figcaption class="figure__caption">{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>

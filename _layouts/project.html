@@ -1,0 +1,73 @@
+---
+layout: default
+body_class: page page--project
+---
+{%- assign projects = site.projects | sort: "order" -%}
+{%- for p in projects -%}
+  {%- if p.url == page.url -%}
+    {%- assign i = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign prev_i = i | minus: 1 -%}
+{%- assign next_i = i | plus: 1 -%}
+<article class="case" aria-labelledby="case-title">
+  <header class="case-hero">
+    <div class="container case-hero__inner">
+      <a class="back-link" href="{{ '/' | relative_url }}#projects">{% include icon.html name="arrow-left" %}All projects</a>
+      <p class="meta"><span>{{ page.kind }}</span><span>{{ page.date_label }}</span></p>
+      <h1 class="case-hero__title" id="case-title">{{ page.title }}</h1>
+      <p class="case-hero__subtitle">{{ page.subtitle }}</p>
+      <div class="case-hero__links">
+        {% include project-links.html links=page.links title=page.title dataset=true %}
+      </div>
+    </div>
+  </header>
+
+  <div class="container case__layout">
+    <aside class="glance" aria-labelledby="glance-title">
+      <h2 class="visually-hidden" id="glance-title">At a glance</h2>
+      <dl class="glance__metrics">
+        {%- for m in page.metrics %}
+        <div class="glance__metric"><dt>{{ m.label }}</dt><dd>{{ m.value }}</dd></div>
+        {%- endfor %}
+      </dl>
+      <dl class="par par--glance">
+        <div class="par__item"><dt>Problem</dt><dd>{{ page.problem }}</dd></div>
+        <div class="par__item"><dt>Approach</dt><dd>{{ page.approach }}</dd></div>
+        <div class="par__item par__item--result"><dt>Result</dt><dd>{{ page.result }}</dd></div>
+      </dl>
+      <div class="glance__meta">
+        <p class="glance__label">Methods</p>
+        <p class="glance__tags">{% for m in page.methods %}<span class="tag">{{ m }}</span>{% endfor %}</p>
+        <p class="glance__label">Stack</p>
+        <p class="glance__stack">{{ page.stack | join: " · " }}</p>
+      </div>
+    </aside>
+
+    <div class="case__content prose">
+      {{ content }}
+    </div>
+  </div>
+
+  <nav class="case-pager container" aria-label="More projects">
+    {%- if prev_i >= 0 %}
+    {%- assign prev = projects[prev_i] %}
+    <a class="case-pager__link case-pager__link--prev" href="{{ prev.url | relative_url }}" rel="prev">
+      <span class="case-pager__dir">{% include icon.html name="arrow-left" %}Previous</span>
+      <span class="case-pager__title">{{ prev.title }}</span>
+    </a>
+    {%- else %}<span></span>{%- endif %}
+    {%- if next_i < projects.size %}
+    {%- assign next = projects[next_i] %}
+    <a class="case-pager__link case-pager__link--next" href="{{ next.url | relative_url }}" rel="next">
+      <span class="case-pager__dir">Next{% include icon.html name="arrow-right" %}</span>
+      <span class="case-pager__title">{{ next.title }}</span>
+    </a>
+    {%- endif %}
+  </nav>
+
+  <aside class="case-cta container" aria-label="Contact">
+    <p class="case-cta__text">Questions about this analysis, or want to discuss a similar problem?</p>
+    <a class="btn btn--primary" href="mailto:{{ site.data.profile.email }}?subject={{ page.title | url_encode }}">{% include icon.html name="mail" %}Email me</a>
+  </aside>
+</article>

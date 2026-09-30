@@ -1,0 +1,5 @@
+{%- comment -%} Source links for a project. Params: links (hash), title (for accessible names). {%- endcomment -%}
+{%- assign l = include.links -%}
+{%- if l.repo %}<a class="text-link" href="{{ l.repo }}" target="_blank" rel="noopener">{% include icon.html name="github" %}<span>Code</span><span class="visually-hidden"> for {{ include.title }} on GitHub (opens in a new tab)</span></a>{% endif -%}
+{%- if l.kaggle %}<a class="text-link" href="{{ l.kaggle }}" target="_blank" rel="noopener">{% include icon.html name="kaggle" %}<span>Notebook</span><span class="visually-hidden"> for {{ include.title }} on Kaggle (opens in a new tab)</span></a>{% endif -%}
+{%- if l.dataset and include.dataset %}<a class="text-link" href="{{ l.dataset }}" target="_blank" rel="noopener">{% include icon.html name="arrow-up-right" %}<span>Dataset</span><span class="visually-hidden"> for {{ include.title }} (opens in a new tab)</span></a>{% endif -%}

@@ -1,0 +1,43 @@
+name: Karteek Pradyumna Bulusu
+short_name: Karteek
+role: Data Scientist III
+company: Teladoc Health
+location: Sunnyvale, California
+email: karteekpbulusu@gmail.com
+resume_pdf: /assets/resume/Karteek-Pradyumna-Bulusu-Resume.pdf
+photo: /assets/img/karteek-bulusu.webp
+
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/karteekpradyumnabulusu/
+    handle: in/karteekpradyumnabulusu
+    icon: linkedin
+  - label: GitHub
+    url: https://github.com/kartikpradyumna92
+    handle: kartikpradyumna92
+    icon: github
+  - label: Kaggle
+    url: https://www.kaggle.com/kartikpradyumna92
+    handle: kartikpradyumna92
+    icon: kaggle
+
+# The full-stack chain shown in the hero, in the order the work happens.
+focus:
+  - Data models
+  - KPIs
+  - Root cause
+  - Forecasts & predictions
+  - Experiments & causal inference
+  - Decisions
+
+# Headline results shown in the hero. Every figure comes from the resume.
+results:
+  - value: "55% → 75%"
+    label: Weigh-in completion among GLP‑1 members
+    detail: A/B-tested in-app nudge · 80k members · 30 days · z-test, p < 0.05
+  - value: "+3%"
+    label: Device engagement in the target segment
+    detail: Difference-in-differences read on the GLP‑1 product launch
+  - value: "20+"
+    label: dbt models behind ML, Finance and Analytics
+    detail: Dimensional, fact and intermediate models on member and clinical data

@@ -1,0 +1,33 @@
+{%- comment -%}
+  Inline SVG icons. Usage: {% include icon.html name="github" %}
+  Brand marks are filled; interface icons are stroked. Always decorative:
+  the surrounding link or button carries the accessible name.
+{%- endcomment -%}
+{%- assign n = include.name -%}
+{%- if n == "github" or n == "linkedin" or n == "kaggle" -%}
+<svg class="icon icon--fill {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  {%- case n -%}
+  {%- when "github" -%}<path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0 0 12 .3"/>
+  {%- when "linkedin" -%}<path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+  {%- when "kaggle" -%}<path d="M18.83 23.86c-.02.09-.12.14-.29.14h-3.13a.63.63 0 0 1-.5-.25l-5.17-6.59-1.45 1.38v5.1c0 .24-.12.36-.35.36H5.5c-.23 0-.35-.12-.35-.36V.35c0-.23.12-.35.35-.35h2.44c.23 0 .35.12.35.35v14.35l6.2-6.28a.68.68 0 0 1 .5-.25h3.24c.14 0 .23.06.28.18.05.15.03.26-.03.32l-6.56 6.34 6.84 8.5c.1.11.12.21.07.36"/>
+  {%- endcase -%}
+</svg>
+{%- else -%}
+<svg class="icon {{ include.class }}" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+  {%- case n -%}
+  {%- when "arrow-right" -%}<path d="M5 12h14M13 6l6 6-6 6"/>
+  {%- when "arrow-left" -%}<path d="M19 12H5M11 18l-6-6 6-6"/>
+  {%- when "arrow-up-right" -%}<path d="M7 17 17 7M8 7h9v9"/>
+  {%- when "arrow-up" -%}<path d="M12 19V5M6 11l6-6 6 6"/>
+  {%- when "arrow-down" -%}<path d="M12 5v14M6 13l6 6 6-6"/>
+  {%- when "download" -%}<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>
+  {%- when "mail" -%}<rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 7 8 6 8-6"/>
+  {%- when "copy" -%}<rect x="9" y="9" width="11" height="11" rx="1.5"/><path d="M5 15V5a1 1 0 0 1 1-1h9"/>
+  {%- when "check" -%}<path d="m5 12.5 4.5 4.5L19 7"/>
+  {%- when "menu" -%}<path d="M4 7h16M4 12h16M4 17h16"/>
+  {%- when "close" -%}<path d="M6 6l12 12M18 6 6 18"/>
+  {%- when "file" -%}<path d="M14 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>
+  {%- when "pin" -%}<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.25"/>
+  {%- endcase -%}
+</svg>
+{%- endif -%}

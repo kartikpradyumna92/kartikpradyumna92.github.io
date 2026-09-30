@@ -1,0 +1,17 @@
+{%- assign profile = site.data.profile -%}
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__name">
+      {% include brand-mark.html %}
+      <span>© {{ site.time | date: "%Y" }} {{ profile.name }}</span>
+    </p>
+    <ul class="site-footer__links" role="list">
+      <li><a href="mailto:{{ profile.email }}">Email</a></li>
+      {%- for l in profile.links %}
+      <li><a href="{{ l.url }}" rel="me noopener" target="_blank">{{ l.label }}<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      {%- endfor %}
+      <li><a href="{{ '/resume/' | relative_url }}">Resume</a></li>
+    </ul>
+    <a class="site-footer__top" href="#top">{% include icon.html name="arrow-up" %}<span>Back to top</span></a>
+  </div>
+</footer>

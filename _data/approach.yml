@@ -1,0 +1,38 @@
+# "How I work": the full data science stack, in the order the work happens.
+# Every stage is tied to real work from the resume or the project repos.
+- stage: Model the data
+  line: Design and build the tables every answer depends on.
+  evidence: >-
+    20+ dbt dimensional, fact and intermediate models on member and clinical
+    data; data pipelines orchestrated with Airflow DAGs; the source-of-truth
+    tables at Skupos.
+- stage: Define KPIs
+  line: Agree on what success means before measuring it.
+  evidence: >-
+    Product, Member and Health KPIs for the GLP-1 launch; Skupos’s first KPIs;
+    an eligibility → enrollment → active funnel.
+- stage: Diagnose
+  line: Root-cause what moved, and find the segment behind it.
+  evidence: >-
+    One of the largest drop-offs in the engagement funnel; members near the ≥5%
+    weight-loss threshold; a sales jump traced to a shift in customer mix.
+- stage: Forecast & predict
+  line: Model what’s next, and track how wrong the model is.
+  evidence: >-
+    Prophet SKU forecasts across 150+ stores with forecast-vs-actual monitoring;
+    time-series trend analysis; regression and classification models.
+- stage: Infer causally
+  line: Estimate impact when randomization isn’t possible.
+  evidence: >-
+    Difference-in-differences on the GLP-1 launch: a +3% lift in device
+    engagement in the target segment.
+- stage: Experiment
+  line: Randomize when you can, and check the design before the p-value.
+  evidence: >-
+    An in-app nudge A/B test across 80k members (55% → 75%); allocation and
+    power checks in the marketing-ad test.
+- stage: Visualize & ship
+  line: Put the answer where the decision gets made.
+  evidence: >-
+    Tableau funnel dashboards for executive leadership, a Plotly model-monitoring
+    dashboard, and monthly reporting on a member incentive program.

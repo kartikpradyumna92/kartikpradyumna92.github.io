@@ -1,0 +1,35 @@
+{%- comment -%}
+  Marketing A/B test result, drawn from the notebook's numbers.
+  Bars: conversion on a 0–3% scale. CI track: difference on a 0–1.0 pp scale.
+{%- endcomment -%}
+<figure class="viz" aria-labelledby="viz-ab-caption">
+  <div class="viz__block">
+    <p class="viz__label">Conversion rate</p>
+    <dl class="bars">
+      <div class="bars__row">
+        <dt>Control <span class="viz__muted">PSA · n = 23,524</span></dt>
+        <dd><span class="bars__bar" style="--v: 59.5%"></span><span class="bars__value">1.79%</span></dd>
+      </div>
+      <div class="bars__row bars__row--accent">
+        <dt>Treatment <span class="viz__muted">Ad · n = 564,577</span></dt>
+        <dd><span class="bars__bar" style="--v: 85.2%"></span><span class="bars__value">2.55%</span></dd>
+      </div>
+    </dl>
+  </div>
+  <div class="viz__block">
+    <p class="viz__label">Difference, ad − PSA, with 95% CI</p>
+    <div class="ci" role="img" aria-label="Difference in conversion: 0.77 percentage points, 95% confidence interval 0.60 to 0.94. The whole interval is above zero.">
+      <div class="ci__track">
+        <span class="ci__zero"><span class="ci__zero-label">no effect</span></span>
+        <span class="ci__interval" style="--lo: 59.5%; --hi: 94.3%"></span>
+        <span class="ci__point" style="--x: 76.9%"><span class="ci__point-label">+0.77 pp</span></span>
+      </div>
+      <div class="ci__axis" aria-hidden="true">
+        <span style="--x: 0%">0</span><span style="--x: 25%">0.25</span><span style="--x: 50%">0.50</span><span style="--x: 75%">0.75</span><span style="--x: 100%">1.0 pp</span>
+      </div>
+    </div>
+  </div>
+  <figcaption class="viz__caption" id="viz-ab-caption">
+    <span>z = 7.37</span><span>p &lt; 0.001</span><span>95% CI 0.60–0.94 pp</span><span>relative lift +43.1%</span>
+  </figcaption>
+</figure>

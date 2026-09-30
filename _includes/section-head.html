@@ -1,0 +1,10 @@
+{%- comment -%} Section rail + heading. Params: num, label, title, id, intro. {%- endcomment -%}
+<div class="section__rail">
+  <p class="section__num"><span>{{ include.num }}</span>{{ include.label }}</p>
+</div>
+<header class="section__head">
+  <h2 class="section__title" id="{{ include.id }}-title">{{ include.title }}</h2>
+  {%- if include.intro %}
+  <p class="section__intro">{{ include.intro }}</p>
+  {%- endif %}
+</header>

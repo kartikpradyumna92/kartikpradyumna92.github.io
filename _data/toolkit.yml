@@ -1,0 +1,82 @@
+# Methods ledger, grouped in the order the work flows. Each method points at
+# where it was actually used. `project` values are slugs in _projects/;
+# `work` values render as plain text; `repo` links out to GitHub.
+methods:
+  - group: Data modeling & engineering
+    items:
+      - name: Dimensional modeling in dbt
+        work: Teladoc — 20+ models, member & clinical data
+      - name: Source-of-truth metric tables
+        work: Skupos, Teladoc
+      - name: Pipeline orchestration
+        work: Teladoc — Airflow DAG orchestration
+  - group: KPIs & product analytics
+    items:
+      - name: KPI design for a product launch
+        work: Teladoc — GLP-1 Product, Member & Health KPIs
+      - name: Funnel metrics
+        work: Teladoc — eligibility → enrollment → active
+      - name: Company KPIs & analytics roadmap
+        work: Skupos — first Data Analyst
+  - group: Root cause & segmentation
+    items:
+      - name: Pre/post change detection, mix-shift decomposition
+        project: sales-shift-diagnosis
+      - name: Segmenting members for targeted action
+        work: Teladoc — members near the ≥5% weight-loss threshold
+      - name: Market basket analysis
+        work: Skupos — retail transactions
+  - group: Forecasting & prediction
+    items:
+      - name: Time-series forecasting (Prophet)
+        work: Skupos — SKU sales across 150+ stores
+      - name: Regularized regression, multicollinearity (VIF)
+        repo: https://github.com/kartikpradyumna92/house-price-predictions
+        repo_label: House price regression
+      - name: Ensemble classification, imbalanced classes
+        repo: https://github.com/kartikpradyumna92/Data-Science--Analysis-of-automobiles-deals-captured
+        repo_label: Deal-capture classifier
+  - group: Causal inference & experimentation
+    items:
+      - name: Difference-in-differences
+        work: Teladoc — GLP-1 launch, device engagement
+      - name: Randomized A/B testing
+        work: Teladoc — in-app weigh-in nudge, 80k members
+        project: marketing-ad-ab-test
+      - name: Design checks — allocation / SRM, power
+        project: marketing-ad-ab-test
+      - name: Two-proportion z-test, CIs, practical significance
+        work: Teladoc — nudge readout
+        project: marketing-ad-ab-test
+  - group: Statistical inference
+    items:
+      - name: Welch’s t-test, chi-square test of independence
+        project: paris-2024-olympics
+      - name: OLS for inference, one-way ANOVA, Tukey HSD
+        project: hospital-charges-inference
+  - group: Visualization & communication
+    items:
+      - name: Dashboards (Tableau)
+        work: Teladoc — acquisition funnel; Skupos — item rank & market share
+      - name: Model-monitoring dashboards (Plotly)
+        work: Skupos — forecast vs. actual
+      - name: Visual storytelling
+        project: paris-2024-olympics
+  - group: Applied AI
+    items:
+      - name: Embedding retrieval + LLM tool calling
+        project: moviebuff-ai
+
+stack:
+  - group: Languages
+    items: [Python, SQL]
+  - group: Statistics & ML
+    items: [statsmodels, SciPy, scikit-learn, Prophet, pandas]
+  - group: Data platform
+    items: [dbt, Snowflake, Databricks, AWS, Azure]
+  - group: Orchestration & CI
+    items: [Airflow (Astronomer), Jenkins]
+  - group: Visualization
+    items: [Tableau, Plotly, matplotlib, seaborn]
+  - group: Apps & AI tooling
+    items: [Flask, Notion API, Groq, sentence-transformers, Cursor, Claude Code]

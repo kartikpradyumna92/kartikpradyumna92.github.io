@@ -1,0 +1,279 @@
+---
+body_class: page page--home
+---
+{%- assign profile = site.data.profile -%}
+{%- assign projects = site.projects | sort: "order" -%}
+{%- assign featured = projects | where: "featured", true -%}
+{%- assign more = projects | where: "featured", false -%}
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__grid">
+    <div class="hero__intro">
+      <p class="hero__eyebrow">
+        <span class="hero__name">{{ profile.name }}</span>
+        <span class="hero__role hero__role--current">{{ profile.role }}, {{ profile.company }}</span>
+      </p>
+      <h1 class="hero__title" id="hero-title">I help product teams find out what <em>actually</em> moved the metric.</h1>
+      <p class="hero__lede">
+        Full-stack data scientist with 8+ years across healthcare and retail,
+        most recently leading analytics for Teladoc Health’s GLP-1 Weight
+        Management launch.
+      </p>
+      <a class="focus" href="#approach">
+        <span class="visually-hidden">My workflow: </span>
+        {%- for f in profile.focus %}
+        <span class="focus__step">{{ f | escape }}</span>
+        {%- endfor %}
+        <span class="focus__more">How I work{% include icon.html name="arrow-down" %}</span>
+      </a>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">View projects{% include icon.html name="arrow-right" %}</a>
+        <a class="btn btn--secondary" href="{{ '/resume/' | relative_url }}">{% include icon.html name="file" %}Resume</a>
+        <a class="text-link text-link--strong" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <aside class="results" aria-labelledby="results-title">
+      <h2 class="results__title" id="results-title">Measured impact</h2>
+      <ol class="results__list" role="list">
+        {%- for r in profile.results %}
+        <li class="results__item">
+          <p class="results__value">{{ r.value }}</p>
+          <p class="results__label">{{ r.label }}</p>
+          <p class="results__detail">{{ r.detail }}</p>
+        </li>
+        {%- endfor %}
+      </ol>
+      <p class="results__note">Teladoc Health, 2022–present · <a href="#experience">Experience</a></p>
+    </aside>
+  </div>
+</section>
+
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container section__grid">
+    {% include section-head.html num="01" label="About" id="about" title="A full-stack data scientist, from the data model to the decision." %}
+    <div class="section__body">
+      <div class="about reveal">
+        <div class="about__text">
+          <div class="about__beat">
+            <p class="about__label">Where I started</p>
+            <p>
+              I was the first Data Analyst at Skupos, an early-stage startup.
+              After setting up the company’s KPIs and source-of-truth tables, I
+              built and scaled a <strong>Prophet sales-forecasting model</strong> for
+              high-volume SKUs across <strong>150+ convenience stores</strong>. It
+              automated inventory decisions and reduced over-deliveries and
+              stockouts, with a forecast-vs-actual dashboard tracking how well it
+              performed.
+            </p>
+          </div>
+          <div class="about__beat">
+            <p class="about__label">What I do now</p>
+            <p>
+              At Teladoc Health since 2020, I work on member engagement for
+              weight management and diabetes prevention programs. I build the
+              data layer too: dbt models on member and clinical
+              data, with pipelines orchestrated as Airflow DAGs.
+              My favorite problems sit at a decision point: a launch that needs an honest
+              read, a funnel drop-off to fix, an at-risk account that needs a
+              plan. I turn each into a testable question, use the design the data
+              supports (a randomized test when possible, difference-in-differences
+              when not), and say plainly what the result does and doesn’t show.
+            </p>
+          </div>
+          <div class="about__beat about__beat--seeking">
+            <p class="about__label">What I’m looking for</p>
+            <p>
+              <strong>Data Scientist</strong> roles across experimentation, causal
+              inference, product analytics and data modeling, on teams where
+              analysis shapes what gets built.
+            </p>
+          </div>
+          <p class="about__aside">
+            Outside work I’m a passionate photographer, which led me to build
+            <a href="https://github.com/kartikpradyumna92/Hue-and-Seek" target="_blank" rel="noopener">Hue&nbsp;&amp;&nbsp;Seek<span class="visually-hidden"> (opens in a new tab)</span></a>,
+            an Android app for single-color photo walks.
+          </p>
+        </div>
+        <figure class="about__photo">
+          <img src="{{ profile.photo | relative_url }}" srcset="{{ '/assets/img/karteek-bulusu-320.webp' | relative_url }} 320w, {{ profile.photo | relative_url }} 640w" sizes="(min-width: 1200px) 17rem, (min-width: 760px) 12rem, 20rem" width="640" height="640" alt="Karteek Pradyumna Bulusu smiling at a mountain overlook, granite cliffs behind him." loading="lazy" decoding="async">
+        </figure>
+      </div>
+
+      <div class="approach reveal" id="approach">
+        <h3 class="subhead" id="approach-title">How I work: from a vague hypothesis to a statistical answer</h3>
+        <p class="approach__intro">The whole data science stack, in the order the work usually happens. Every stage is tied to real work.</p>
+        <ol class="approach__list" role="list">
+          {%- for s in site.data.approach %}
+          <li class="approach__item">
+            <p class="approach__stage"><span class="approach__num">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</span>{{ s.stage }}</p>
+            <p class="approach__line">{{ s.line }}</p>
+            <p class="approach__evidence">{{ s.evidence }}</p>
+          </li>
+          {%- endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience" aria-labelledby="experience-title">
+  <div class="container section__grid">
+    {% include section-head.html num="02" label="Experience" id="experience" title="From an early-stage startup to enterprise healthcare." intro="At both companies, the work came down to defining the right metric, building the data behind it, and then explaining it: diagnosing what moved, forecasting what comes next, and measuring what caused the change." %}
+    <div class="section__body">
+      {%- for job in site.data.experience %}
+      <article class="job reveal" aria-labelledby="job-{{ forloop.index }}">
+        <header class="job__head">
+          <h3 class="job__company" id="job-{{ forloop.index }}">{{ job.company }}</h3>
+          <p class="job__period">{{ job.period }}</p>
+          <p class="job__context">{{ job.context }}</p>
+        </header>
+        <div class="job__roles">
+          {%- for role in job.roles %}
+          <div class="role">
+            <div class="role__head">
+              <h4 class="role__title">{{ role.title }}</h4>
+              <p class="role__period">{{ role.period }}</p>
+            </div>
+            <ul class="highlights" role="list">
+              {%- for h in role.highlights %}
+              <li class="highlight{% unless h.metric %} highlight--plain{% endunless %}">
+                {%- if h.metric %}
+                <p class="highlight__metric"><span class="highlight__value">{{ h.metric.value }}</span><span class="highlight__label">{{ h.metric.label }}</span></p>
+                {%- endif %}
+                <div class="highlight__body">
+                  <p>{{ h.text }}</p>
+                  <p class="highlight__tags"><span class="visually-hidden">Skills: </span>{% for t in h.tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+                </div>
+              </li>
+              {%- endfor %}
+            </ul>
+          </div>
+          {%- endfor %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="container section__grid">
+    {% include section-head.html num="03" label="Projects" id="projects" title="Personal projects." intro="Each featured project follows the same arc: the question, the design choices, the result and its limits. The full case studies have the detail." %}
+    <div class="section__body">
+      <div class="features">
+        {%- for p in featured %}
+        {% include project-feature.html project=p index=forloop.index %}
+        {%- endfor %}
+      </div>
+
+      <div class="index">
+        <h3 class="subhead" id="more-title">More analyses &amp; builds</h3>
+        <ul class="index__list" role="list">
+          {%- for p in more %}
+          {% include project-row.html project=p %}
+          {%- endfor %}
+          {%- for p in site.data.more_projects %}
+          {% include project-row.html project=p %}
+          {%- endfor %}
+        </ul>
+        <p class="index__more">
+          Everything else is on <a class="text-link" href="https://github.com/kartikpradyumna92" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+          and <a class="text-link" href="https://www.kaggle.com/kartikpradyumna92" target="_blank" rel="noopener">Kaggle<span class="visually-hidden"> (opens in a new tab)</span></a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="toolkit" aria-labelledby="toolkit-title">
+  <div class="container section__grid">
+    {% include section-head.html num="04" label="Skills" id="toolkit" title="Methods and tech stack." intro="Organized in the order the work flows. Each method points to where I applied it." %}
+    <div class="section__body">
+      <div class="ledger reveal">
+        {%- for g in site.data.toolkit.methods %}
+        <section class="ledger__group" aria-labelledby="ledger-{{ forloop.index }}">
+          <h3 class="ledger__title" id="ledger-{{ forloop.index }}">{{ g.group }}</h3>
+          <dl class="ledger__rows">
+            {%- for m in g.items %}
+            <div class="ledger__row">
+              <dt>{{ m.name }}</dt>
+              <dd>
+                {%- if m.work %}<span class="ledger__work">{{ m.work }}</span>{% endif -%}
+                {%- if m.project -%}
+                  {%- assign lp = site.projects | where: "slug", m.project | first -%}
+                  <a class="ledger__link" href="{{ lp.url | relative_url }}">{{ lp.short_title | default: lp.title }}</a>
+                {%- endif -%}
+                {%- if m.repo -%}
+                  <a class="ledger__link" href="{{ m.repo }}" target="_blank" rel="noopener">{{ m.repo_label }}<span class="visually-hidden"> on GitHub (opens in a new tab)</span></a>
+                {%- endif -%}
+              </dd>
+            </div>
+            {%- endfor %}
+          </dl>
+        </section>
+        {%- endfor %}
+      </div>
+
+      <div class="stack-list reveal">
+        <h3 class="subhead" id="stack-title">Tech stack</h3>
+        <dl class="stack-list__rows">
+          {%- for g in site.data.toolkit.stack %}
+          <div class="stack-list__row"><dt>{{ g.group }}</dt><dd>{{ g.items | join: " · " }}</dd></div>
+          {%- endfor %}
+        </dl>
+      </div>
+
+      <div class="education reveal">
+        <h3 class="subhead" id="education-title">Education</h3>
+        <ul class="education__list" role="list">
+          {%- for e in site.data.education.degrees %}
+          <li class="education__item"><span class="education__degree">{{ e.degree }}</span><span class="education__school">{{ e.school }}</span><span class="education__period">{{ e.period }}</span></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--contact" id="contact" aria-labelledby="contact-title">
+  <div class="container section__grid">
+    {% include section-head.html num="05" label="Contact" id="contact" title="Let’s connect." %}
+    <div class="section__body">
+      <div class="contact reveal">
+        <p class="contact__lede">
+          Hiring for a Data Scientist role, or want to compare notes on methods?
+          Email is the fastest way to reach me.
+        </p>
+        <div class="contact__email">
+          <a class="contact__address" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+          <button class="btn btn--secondary btn--small copy-btn" type="button" data-copy="{{ profile.email }}" hidden>
+            <span class="copy-btn__idle">{% include icon.html name="copy" %}Copy</span>
+            <span class="copy-btn__done">{% include icon.html name="check" %}Copied</span>
+          </button>
+          <span class="visually-hidden" role="status" aria-live="polite" data-copy-status></span>
+        </div>
+        <ul class="contact__links" role="list">
+          {%- for l in profile.links %}
+          <li>
+            <a class="contact__link" href="{{ l.url }}" target="_blank" rel="me noopener">
+              {% include icon.html name=l.icon %}
+              <span class="contact__link-label">{{ l.label }}</span>
+              <span class="contact__link-handle">{{ l.handle }}</span>
+              <span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </li>
+          {%- endfor %}
+          <li>
+            <a class="contact__link" href="{{ '/resume/' | relative_url }}">
+              {% include icon.html name="file" %}
+              <span class="contact__link-label">Resume</span>
+              <span class="contact__link-handle">View or download PDF</span>
+            </a>
+          </li>
+        </ul>
+        <p class="contact__location">{% include icon.html name="pin" %}{{ profile.location }} · San Francisco Bay Area</p>
+      </div>
+    </div>
+  </div>
+</section>
